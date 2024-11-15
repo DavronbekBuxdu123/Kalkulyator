@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./kalkulyatr.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p class="time">9:22</p>
+        <div class="header1">
+          <img class="wifi" src="./img/network-signal.png" alt="" />
+          <img class="wifi" src="./img/wifi (1).png" alt="" />
+          <img class="wifi" src="./img/full-battery.png" alt="" />
+        </div>
+      </div>
+      <input id="input1" class="input" disabled type="text" placeholder="0" />
+      <div class="kalkulyatr">
+        <div class="tugmalar1">
+          <button onclick="remove()" class="div"><h1>C</h1></button>
+          <button onclick="plus_minus()" class="div"><h1>+/−</h1></button>
+          <button onclick="foiz()" class="div"><h1>%</h1></button>
+          <button onclick="a('/')" class="div1"><h1>÷</h1></button>
+        </div>
+        <div class="tugmalar2">
+          <button onclick="a(7)" class="div2"><h1>7</h1></button>
+          <button onclick="a(8)" class="div2"><h1>8</h1></button>
+          <button onclick="a(9)" class="div2"><h1>9</h1></button>
+          <button onclick="a('*')" class="div1"><h1>×</h1></button>
+        </div>
+        <div class="tugmalar3">
+          <button onclick="a(4)" class="div2"><h1>4</h1></button>
+          <button onclick="a(5)" class="div2"><h1>5</h1></button>
+          <button onclick="a(6)" class="div2"><h1>6</h1></button>
+          <button onclick="a('-')" class="div1"><h1>−</h1></button>
+        </div>
+        <div class="tugmalar4">
+          <button onclick="a(1)" class="div2"><h1>1</h1></button>
+          <button onclick="a(2)" class="div2"><h1>2</h1></button>
+          <button onclick="a(3)" class="div2"><h1>3</h1></button>
+          <button onclick="a('+')" class="div1"><h1>+</h1></button>
+        </div>
+        <div class="tugmalar5">
+          <button onclick="a(0)" class="div2"><h1>0</h1></button>
+          <button onclick="slice()" class="div2">
+            <img class="arrow" src="./img/arrow.png" alt="" />
+          </button>
+          <button onclick="a('.')" class="div2"><h1>.</h1></button>
+          <button onclick="calculate()" class="div3"><h1>=</h1></button>
+        </div>
+        <hr
+          style="
+            width: 50%;
+            margin-top: 30px;
+            border: 2px solid white;
+            border-radius: 5px;
+          "
+        />
+      </div>
+    </div>
+    <script src="./kalkulyatr.js"></script>
+  </body>
+</html>
