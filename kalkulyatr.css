@@ -127,15 +127,10 @@
 .tugmalar1 {
   margin-top: 30px;
 }
-.tugmalar2 {
-  margin-top: 15px;
-}
-.tugmalar3 {
-  margin-top: 15px;
-}
-.tugmalar4 {
-  margin-top: 15px;
-}
+.tugmalar2,
+.tugmalar3,
+.tugmalar4,
 .tugmalar5 {
   margin-top: 15px;
 }
+
